@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SSE.Catalogo.API.props" />
+</Project>

@@ -1,0 +1,6 @@
+@SSE.Pagamento.API_HostAddress = http://localhost:5129
+
+GET {{SSE.Pagamento.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

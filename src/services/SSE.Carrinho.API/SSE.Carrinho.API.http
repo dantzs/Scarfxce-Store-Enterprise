@@ -1,0 +1,6 @@
+@SSE.Carrinho.API_HostAddress = http://localhost:5069
+
+GET {{SSE.Carrinho.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@SSE.Identidade.API_HostAddress = http://localhost:5019
+
+GET {{SSE.Identidade.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

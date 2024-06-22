@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SSE.Catalogo.API.props" />
+</Project>
