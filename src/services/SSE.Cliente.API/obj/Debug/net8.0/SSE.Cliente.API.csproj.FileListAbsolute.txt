@@ -30,3 +30,4 @@ C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Cliente.API\o
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Cliente.API\obj\Debug\net8.0\SSE.Cliente.API.pdb
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Cliente.API\obj\Debug\net8.0\SSE.Cliente.API.genruntimeconfig.cache
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Cliente.API\obj\Debug\net8.0\ref\SSE.Cliente.API.dll
+C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Cliente.API\obj\Debug\net8.0\SSE.Cliente.API.sourcelink.json

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSE.Cliente.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ef03eb4c1024deb75d276f56a8dff1797dc1ba8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSE.Cliente.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSE.Cliente.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

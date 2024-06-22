@@ -30,3 +30,4 @@ C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Carrinho.API\
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Carrinho.API\obj\Debug\net8.0\SSE.Carrinho.API.pdb
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Carrinho.API\obj\Debug\net8.0\SSE.Carrinho.API.genruntimeconfig.cache
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Carrinho.API\obj\Debug\net8.0\ref\SSE.Carrinho.API.dll
+C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\services\SSE.Carrinho.API\obj\Debug\net8.0\SSE.Carrinho.API.sourcelink.json

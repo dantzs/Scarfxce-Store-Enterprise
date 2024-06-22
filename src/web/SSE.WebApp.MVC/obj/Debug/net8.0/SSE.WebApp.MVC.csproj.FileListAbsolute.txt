@@ -28,3 +28,4 @@ C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\web\SSE.WebApp.MVC\obj\Deb
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\web\SSE.WebApp.MVC\obj\Debug\net8.0\SSE.WebApp.MVC.pdb
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\web\SSE.WebApp.MVC\obj\Debug\net8.0\SSE.WebApp.MVC.genruntimeconfig.cache
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\web\SSE.WebApp.MVC\obj\Debug\net8.0\ref\SSE.WebApp.MVC.dll
+C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\web\SSE.WebApp.MVC\obj\Debug\net8.0\SSE.WebApp.MVC.sourcelink.json

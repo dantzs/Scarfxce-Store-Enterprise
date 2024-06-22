@@ -17,14 +17,17 @@ namespace SSE.Identidade.API.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly AppSettings _appSettings;
+        private readonly ILogger<AuthController> _logger;
 
         public AuthController(SignInManager<IdentityUser> signInManager, 
                               UserManager<IdentityUser> userManager, 
-                              IOptions<AppSettings> appSettings)
+                              IOptions<AppSettings> appSettings,
+                              ILogger<AuthController> logger)
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _appSettings = appSettings.Value;
+            _logger = logger;
         }
 
         [HttpPost("register")]
@@ -43,6 +46,7 @@ namespace SSE.Identidade.API.Controllers
             if (result.Succeeded)
             {
                 await _signInManager.SignInAsync(user, isPersistent: false);
+                _logger.LogInformation("User registered and token generated");
                 return Ok(await GenerateJwt(registerUser.Email));
            
             }

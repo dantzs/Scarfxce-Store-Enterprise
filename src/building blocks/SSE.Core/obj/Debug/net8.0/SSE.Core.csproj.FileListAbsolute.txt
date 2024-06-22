@@ -9,3 +9,4 @@ C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\building blocks\SSE.Core\o
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\building blocks\SSE.Core\obj\Debug\net8.0\refint\SSE.Core.dll
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\building blocks\SSE.Core\obj\Debug\net8.0\SSE.Core.pdb
 C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\building blocks\SSE.Core\obj\Debug\net8.0\ref\SSE.Core.dll
+C:\Users\Marcelo\Projetos\ScarfxceStoreEnterprise\src\building blocks\SSE.Core\obj\Debug\net8.0\SSE.Core.sourcelink.json
