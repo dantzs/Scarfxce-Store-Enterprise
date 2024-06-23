@@ -12,7 +12,7 @@ namespace SSE.Identidade.API.Controllers
 {
     [ApiController]
     [Route("api/identity")]
-    public class AuthController : Controller
+    public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
@@ -21,19 +21,18 @@ namespace SSE.Identidade.API.Controllers
 
         public AuthController(SignInManager<IdentityUser> signInManager, 
                               UserManager<IdentityUser> userManager, 
-                              IOptions<AppSettings> appSettings,
-                              ILogger<AuthController> logger)
+                              IOptions<AppSettings> appSettings)
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _appSettings = appSettings.Value;
-            _logger = logger;
+           
         }
 
         [HttpPost("register")]
         public async Task<ActionResult> RegisterUser(RegisterViewModel registerUser)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var user = new IdentityUser
             {
@@ -44,30 +43,39 @@ namespace SSE.Identidade.API.Controllers
 
             var result = await _userManager.CreateAsync(user, registerUser.Password);
             if (result.Succeeded)
-            {
-                await _signInManager.SignInAsync(user, isPersistent: false);
-                _logger.LogInformation("User registered and token generated");
-                return Ok(await GenerateJwt(registerUser.Email));
-           
+            { 
+                return CustomResponse(await GenerateJwt(registerUser.Email));
             }
 
-            return BadRequest();
+
+            foreach (var error in result.Errors) 
+            {
+                AddErrorProcess(error.Description);
+            }
+            return CustomResponse();
 
         }
         [HttpPost("login")]
         public async Task<ActionResult> LoginUser(LoginViewModel loginUser)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, isPersistent: false, true);
 
-            if(result.Succeeded)
+            if (result.Succeeded)
             {
-                
-                return Ok(await GenerateJwt(loginUser.Email));
+
+                return CustomResponse(await GenerateJwt(loginUser.Email));
             }
 
-            return BadRequest();
+            if (result.IsLockedOut)
+            {
+                AddErrorProcess("Usuário temporariamente bloqueado por tentativas inválidas");
+                return CustomResponse();
+            }
+
+            AddErrorProcess("Usuário ou Senha incorretos");
+            return CustomResponse();
 
         }
     

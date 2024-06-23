@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\SSE.Cliente.API.props" />
-</Project>
