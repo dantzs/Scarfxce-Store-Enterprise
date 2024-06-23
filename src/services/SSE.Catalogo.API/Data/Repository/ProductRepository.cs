@@ -5,7 +5,7 @@ using SSE.Core.Data;
 namespace SSE.Catalogo.API.Data.Repository
 {
 
-    public class ProductRepository : IProductReposiroty
+    public class ProductRepository : IProductRepository
     {
         private readonly CatalogoContext _context;
 

@@ -2,7 +2,7 @@
 
 namespace SSE.Catalogo.API.Model
 {
-    public interface IProductReposiroty : IRepository<Product>
+    public interface IProductRepository : IRepository<Product>
     {
 
         Task<IEnumerable<Product>> GetFindAll();

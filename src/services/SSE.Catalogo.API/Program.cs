@@ -1,34 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using SSE.Catalogo.API.Data;
+using SSE.Catalogo.API.Extensions;
+using SSE.Catalogo.API.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddApiConfiguration(builder.Configuration);
+builder.Services.AddSwaggerConfiguration();
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
-builder.Services.AddDbContext<CatalogoContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConncetion"));
-});
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
+app.UseSwaggerConfiguration(app.Environment);
 
 app.Run();
