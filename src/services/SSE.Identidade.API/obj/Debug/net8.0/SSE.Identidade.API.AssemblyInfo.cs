@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSE.Identidade.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae40f21ce3859187b6ed263b239cae1d40f540b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cea94513daf808fb1284048ba9ba3521dfe9d08")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSE.Identidade.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSE.Identidade.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
