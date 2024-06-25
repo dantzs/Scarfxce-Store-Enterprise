@@ -516,27 +516,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marcelo\\.nuget\\packages\\": {}
+    "C:\\Users\\marce\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\services\\SSE.Cliente.API\\SSE.Cliente.API.csproj",
+      "projectUniqueName": "C:\\Users\\marce\\Projetos\\src\\services\\SSE.Cliente.API\\SSE.Cliente.API.csproj",
       "projectName": "SSE.Cliente.API",
-      "projectPath": "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\services\\SSE.Cliente.API\\SSE.Cliente.API.csproj",
-      "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\services\\SSE.Cliente.API\\obj\\",
+      "projectPath": "C:\\Users\\marce\\Projetos\\src\\services\\SSE.Cliente.API\\SSE.Cliente.API.csproj",
+      "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marce\\Projetos\\src\\services\\SSE.Cliente.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

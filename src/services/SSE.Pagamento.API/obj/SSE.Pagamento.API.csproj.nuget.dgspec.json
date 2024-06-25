@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\services\\SSE.Pagamento.API\\SSE.Pagamento.API.csproj": {}
+    "C:\\Users\\marce\\Projetos\\src\\services\\SSE.Pagamento.API\\SSE.Pagamento.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\services\\SSE.Pagamento.API\\SSE.Pagamento.API.csproj": {
+    "C:\\Users\\marce\\Projetos\\src\\services\\SSE.Pagamento.API\\SSE.Pagamento.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\services\\SSE.Pagamento.API\\SSE.Pagamento.API.csproj",
+        "projectUniqueName": "C:\\Users\\marce\\Projetos\\src\\services\\SSE.Pagamento.API\\SSE.Pagamento.API.csproj",
         "projectName": "SSE.Pagamento.API",
-        "projectPath": "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\services\\SSE.Pagamento.API\\SSE.Pagamento.API.csproj",
-        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\services\\SSE.Pagamento.API\\obj\\",
+        "projectPath": "C:\\Users\\marce\\Projetos\\src\\services\\SSE.Pagamento.API\\SSE.Pagamento.API.csproj",
+        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marce\\Projetos\\src\\services\\SSE.Pagamento.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

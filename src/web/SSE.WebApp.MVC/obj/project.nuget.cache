@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8nx5yhwA6Vk=",
+  "dgSpecHash": "B82yIKW36Bo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcelo\\Projetos\\ScarfxceStoreEnterprise\\src\\web\\SSE.WebApp.MVC\\SSE.WebApp.MVC.csproj",
+  "projectFilePath": "C:\\Users\\marce\\Projetos\\src\\web\\SSE.WebApp.MVC\\SSE.WebApp.MVC.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Marcelo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
   ],
   "logs": []
 }
